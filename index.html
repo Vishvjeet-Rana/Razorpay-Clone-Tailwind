@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Razorpay - Best Online Payment Gateway</title>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <!-- navbar starting -->
-    <nav class="bg-deepBlue py-1">
+    <nav class="bg-deepBlue py-1 justify-evenly flex">
       <div class="relative flex justify-evenly items-center w-[1080px]">
         <!-- razorpay logo as a link -->
         <a href="/" class="py-7 pr-7">
@@ -21,7 +28,7 @@
         </a>
 
         <!-- section of all options available in navbar -->
-        <ul class="flex space-x-7">
+        <ul class="flex gap-x-7">
           <!-- option 1 -->
           <li
             class="relative py-7 font-mullish text-darkGray hover:text-lightBlue500 transition-all duration-200 group cursor-pointer"
@@ -87,11 +94,40 @@
             class="relative py-7 font-mullish text-darkGray hover:text-lightBlue500 transition-all duration-200 group cursor-pointer"
           >
             <a href="#">Pricing</a>
-            <div
+            <!-- <div
               class="absolute bottom-0 hidden group-hover:block bg-lightBlue500 cursor-pointer w-full h-0.5"
-            ></div>
+            ></div> -->
           </li>
         </ul>
+
+        <!-- section for indian flag, sign in and sign up -->
+        <div class="flex gap-x-6 ml-14">
+          <!-- indian flag image -->
+          <img
+            src="images/indian_flag.png"
+            alt="indian flag"
+            width="50px"
+            height="10px"
+            class="cursor-pointer"
+          />
+
+          <!-- login button -->
+          <button
+            class="font-mullish border py-1 px-3 text-center cursor-pointer hover:bg-blue-500 hover:border hover:text-black text-white transition-all duration-500"
+          >
+            Login
+          </button>
+
+          <!-- Sign up button -->
+          <button
+            class="font-mullish font-semibold py-1 px-3 text-center cursor-pointer text-black bg-blue-500 transition-all duration-500 hover:border-0 hover:bg-deepBlue hover:text-white group"
+          >
+            Sign Up
+            <i
+              class="fa-solid fa-arrow-right text-black ml-1 group-hover:text-white transition-all duration-500"
+            ></i>
+          </button>
+        </div>
       </div>
     </nav>
   </body>
