@@ -28,14 +28,24 @@ module.exports = {
           "0%": { transform: "translateY(100%)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
-        upDown: {
+        downUp: {
           "0%": { transform: "translateY(-80%)" },
           "50%": { transform: "translateY(80%)" },
           "100%": { transform: "translateY(-80%)" },
         },
-        downUp: {
+        upDown: {
           "0%": { transform: "translateY(80%)" },
           "50%": { transform: "translateY(-80%)" },
+          "100%": { transform: "translateY(80%)" },
+        },
+        downUpSlow: {
+          "0%": { transform: "translateY(-40%)" },
+          "50%": { transform: "translateY(40%)" },
+          "100%": { transform: "translateY(-40%)" },
+        },
+        upDownSlow: {
+          "0%": { transform: "translateY(40%)" },
+          "50%": { transform: "translateY(-40%)" },
           "100%": { transform: "translateY(80%)" },
         },
       },

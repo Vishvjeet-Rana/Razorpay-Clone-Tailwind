@@ -500,11 +500,12 @@
     >
       <!-- heading and icon holder -->
       <div
-        class="flex justify-around items-center w-[1080px] h-[20%] bg-red-400"
+        class="flex justify-around items-center w-[1080px] h-[20%] bg-white shadow-lg"
       >
         <!-- heading -->
         <h1 class="font-mullish font-bold text-black text-5xl">
-          Powering every industry. <br />Powering all disruptors.
+          Powering <span class="text-blue-500">every</span> industry.
+          <br />Powering <span class="text-blue-500">all</span> disruptors.
         </h1>
         <!-- icons -->
         <div
@@ -522,11 +523,11 @@
 
       <!-- main feature holder -->
       <div
-        class="w-[1080px] h-[70%] bg-blue-400 mt-5 flex flex-col justify-around items-center"
+        class="w-[1080px] h-[70%] mt-5 flex flex-col justify-around items-center"
       >
         <!-- button container -->
         <div
-          class="flex items-center gap-8 h-[15%] w-[90%] rounded-xl bg-red-500 pl-3"
+          class="flex items-center gap-8 h-[15%] w-[90%] rounded-xl bg-white shadow-lg pl-3"
         >
           <button
             id="ecommerce"
@@ -561,14 +562,38 @@
         </div>
 
         <!-- feature and image holder -->
-        <div class="w-[95%] rounded-xl h-[80%] bg-violet-600">
+        <div
+          class="w-[95%] rounded-xl h-[80%] bg-white flex justify-around items-center overflow-hidden"
+        >
           <!-- feature -->
-          <div
-            class="h-[90%] w-[45%] bg-orange-400 rounded-xl flex justify-center items-center"
-          ></div>
+          <div class="h-[90%] w-[48%] bg-featureBG shadow-lg rounded-xl p-3">
+            <h1
+              class="font-mullish animate-slide-in-left font-semibold text-black text-4xl mb-4 mt-4"
+            >
+              Payments ecosystem for
+              <span class="text-green-600">financial services</span>
+            </h1>
+            <p
+              class="font-mullish animate-slide-in-left font-semibold text-gray-600 text-lg"
+            >
+              Streamline collection management, automate recurring payments, and
+              expedite loan disbursement for a comprehensive financial solution.
+            </p>
+            <button
+              class="rounded-xl font-mullish font-semibold p-3 text-center cursor-pointer text-white bg-blue-600 transition-all duration-500 hover:bg-blue-700 hover:text-white group mt-8 text-base animate-slide-in-left"
+            >
+              Sign Up Now
+              <i class="fa-solid fa-arrow-right text-white ml-2"></i>
+            </button>
+          </div>
+
           <!-- image -->
-          <div>
-            <img src="" alt="" />
+          <div class="h-[90%] w-[48%] bg-featureBG shadow-lg rounded-xl">
+            <img
+              src="images/bfsi.png"
+              alt=""
+              class="overflow-hidden h-[100%] w-[100%] rounded-xl animate-slide-in-right"
+            />
           </div>
         </div>
       </div>
