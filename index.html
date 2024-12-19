@@ -10,7 +10,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <style>
+      .clipped-div {
+        clip-path: polygon(68% 0, 100% 28%, 100% 100%, 0 100%, 0 0);
+      }
+    </style>
+
     <title>Razorpay - Best Online Payment Gateway</title>
+
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
@@ -189,7 +197,7 @@
 
         <!-- second div - holds features & image -->
         <div
-          class="mt-8 flex flex-row justify-between text-left w-[100%] h-[90%]"
+          class="mt-8 p-7 flex flex-row justify-between text-left w-[100%] h-[90%] border border-blue-400 rounded-lg"
         >
           <!-- left feature part -->
           <div class="flex flex-col w-[50%] h-[90%]">
@@ -234,7 +242,7 @@
                 <i class="fa-solid fa-arrow-right text-white ml-2"></i>
               </button>
               <button
-                class="rounded-xl font-mullish font-semibold p-4 text-center cursor-pointer text-deepBlue group mt-8 text-base"
+                class="rounded-xl hover:text-white transition-all duration-500 font-mullish font-semibold p-4 text-center cursor-pointer text-deepBlue group mt-8 text-base"
               >
                 Know more
                 <i class="fa-solid fa-chevron-right"></i>
@@ -251,6 +259,232 @@
               width="90%"
               class="rounded-3xl animate-slide-in-right"
             />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cards section -->
+    <section class="h-[600px] flex justify-center items-center bg-azure-500">
+      <!-- main container -->
+      <div class="w-[1080px] h-[85%] grid grid-cols-3 grid-rows-2 gap-4">
+        <!-- box-1 -->
+
+        <div class="relative animate-slide-in-left">
+          <div
+            class="z-50 bg-white pt-4 clipped-div h-full cursor-pointer rounded-xl"
+          >
+            <!-- content goes here -->
+            <div>
+              <!-- headings -->
+              <div class="flex flex-col justify-center p-3">
+                <h3 class="font-mullish font-bold text-black text-3xl">
+                  Payment Links
+                </h3>
+                <p class="font-mullish text-darkGray text-sm font-bold mt-3">
+                  Share payment link via email, SMS, messanger, chatbot etc. and
+                  get paid immediately
+                </p>
+              </div>
+
+              <!-- hyperlink -->
+              <div class="p-4">
+                <a
+                  href=""
+                  class="font-bold font-mullish text-blue-700 hover:text-blue-900 transition-all duration-200"
+                  >Know More <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-[-1] right-4 top-3 rounded-full h-10 w-10 items-center flex justify-center bg-blue-500 text-white absolute p-2"
+          >
+            <i class="fa-solid fa-down-left-and-up-right-to-center"></i>
+          </div>
+        </div>
+
+        <!-- box-2 -->
+
+        <div class="relative animate-slide-in-top">
+          <div
+            class="z-50 bg-white pt-4 clipped-div h-full cursor-pointer rounded-xl"
+          >
+            <!-- content goes here -->
+            <div>
+              <!-- headings -->
+              <div class="flex flex-col justify-center p-3">
+                <h3 class="font-mullish font-bold text-black text-3xl">
+                  Payment Pages
+                </h3>
+                <p class="font-mullish text-darkGray text-sm font-bold mt-3">
+                  Create a custom payment page quickly and start accepting
+                  payments without coding. Perfect for all businesses.
+                </p>
+              </div>
+
+              <!-- hyperlink -->
+              <div class="p-4">
+                <a
+                  href=""
+                  class="font-bold font-mullish text-blue-700 hover:text-blue-900 transition-all duration-200"
+                  >Know More <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-[-1] right-4 top-3 rounded-full h-10 w-10 items-center flex justify-center bg-blue-500 text-white absolute p-2"
+          >
+            <i class="fa-regular fa-file-lines"></i>
+          </div>
+        </div>
+
+        <!-- box-3 -->
+
+        <div class="relative animate-slide-in-right">
+          <div
+            class="z-50 bg-white pt-4 clipped-div h-full cursor-pointer rounded-xl"
+          >
+            <!-- content goes here -->
+            <div>
+              <!-- headings -->
+              <div class="flex flex-col justify-center p-3">
+                <h3 class="font-mullish font-bold text-black text-3xl">
+                  Payment Buttons
+                </h3>
+                <p class="font-mullish text-darkGray text-sm font-bold mt-3">
+                  Add customizable payment buttons to your site with ease. These
+                  buttons offer a seamless payment experience for your
+                  customers.
+                </p>
+              </div>
+
+              <!-- hyperlink -->
+              <div class="p-4">
+                <a
+                  href=""
+                  class="font-bold font-mullish text-blue-700 hover:text-blue-900 transition-all duration-200"
+                  >Know More <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-[-1] right-4 top-3 rounded-full h-10 w-10 items-center flex justify-center bg-blue-500 text-white absolute p-2"
+          >
+            <i class="fa-brands fa-stack-exchange"></i>
+          </div>
+        </div>
+
+        <!-- box-4 -->
+
+        <div class="relative animate-slide-in-left">
+          <div
+            class="z-50 bg-white pt-4 clipped-div h-full cursor-pointer rounded-xl"
+          >
+            <!-- content goes here -->
+            <div>
+              <!-- headings -->
+              <div class="flex flex-col justify-center p-3">
+                <h3 class="font-mullish font-bold text-black text-3xl">
+                  Subscriptions
+                </h3>
+                <p class="font-mullish text-darkGray text-sm font-bold mt-3">
+                  Automate recurring payments with Razorpay Subscriptions. Set
+                  up plans, manage billing cycles, and offer a seamless
+                  experience.
+                </p>
+              </div>
+
+              <!-- hyperlink -->
+              <div class="p-4">
+                <a
+                  href=""
+                  class="font-bold font-mullish text-blue-700 hover:text-blue-900 transition-all duration-200"
+                  >Know More <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-[-1] right-4 top-3 rounded-full h-10 w-10 items-center flex justify-center bg-blue-500 text-white absolute p-2"
+          >
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+        </div>
+
+        <!-- box-5 -->
+
+        <div class="relative animate-slide-in-bottom">
+          <div
+            class="z-50 bg-white pt-4 clipped-div h-full cursor-pointer rounded-xl"
+          >
+            <!-- content goes here -->
+            <div>
+              <!-- headings -->
+              <div class="flex flex-col justify-center p-3">
+                <h3 class="font-mullish font-bold text-black text-3xl">
+                  Route
+                </h3>
+                <p class="font-mullish text-darkGray text-sm font-bold mt-3">
+                  Manage and automate your fund transfers with Razorpay Route.
+                  Split payments, disburse funds, and manage cash flows
+                  efficiently.
+                </p>
+              </div>
+
+              <!-- hyperlink -->
+              <div class="p-4">
+                <a
+                  href=""
+                  class="font-bold font-mullish text-blue-700 hover:text-blue-900 transition-all duration-200"
+                  >Know More <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-[-1] right-4 top-3 rounded-full h-10 w-10 items-center flex justify-center bg-blue-500 text-white absolute p-2"
+          >
+            <i class="fa-solid fa-route"></i>
+          </div>
+        </div>
+
+        <!-- box-6 -->
+
+        <div class="relative animate-slide-in-right">
+          <div
+            class="z-50 bg-white pt-4 clipped-div h-full cursor-pointer rounded-xl"
+          >
+            <!-- content goes here -->
+            <div>
+              <!-- headings -->
+              <div class="flex flex-col justify-center p-3">
+                <h3 class="font-mullish font-bold text-black text-3xl">
+                  Smart Collect
+                </h3>
+                <p class="font-mullish text-darkGray text-sm font-bold mt-3">
+                  Collect payments directly into your bank account via virtual
+                  accounts and UPI IDs. Simplify reconciliation and automate
+                  collections.
+                </p>
+              </div>
+
+              <!-- hyperlink -->
+              <div class="p-4">
+                <a
+                  href=""
+                  class="font-bold font-mullish text-blue-700 hover:text-blue-900 transition-all duration-200"
+                  >Know More <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="z-[-1] right-4 top-3 rounded-full h-10 w-10 items-center flex justify-center bg-blue-500 text-white absolute p-2"
+          >
+            <i class="fa-solid fa-shield-heart"></i>
           </div>
         </div>
       </div>
