@@ -8,6 +8,8 @@ module.exports = {
         "slide-in-right": "slideInRight 1s ease-out",
         "slide-in-top": "slideInTop 1s ease-out",
         "slide-in-bottom": "slideInBottom 1s ease-out",
+        "up-down": "upDown 4s ease-in-out infinite", // Adjust timing to suit your needs
+        "down-up": "downUp 4s ease-in-out infinite", // Adjust timing to suit your
       },
       keyframes: {
         slideInLeft: {
@@ -25,6 +27,16 @@ module.exports = {
         slideInBottom: {
           "0%": { transform: "translateY(100%)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        upDown: {
+          "0%": { transform: "translateY(-80%)" },
+          "50%": { transform: "translateY(80%)" },
+          "100%": { transform: "translateY(-80%)" },
+        },
+        downUp: {
+          "0%": { transform: "translateY(80%)" },
+          "50%": { transform: "translateY(-80%)" },
+          "100%": { transform: "translateY(80%)" },
         },
       },
 
@@ -45,6 +57,7 @@ module.exports = {
         darkGray: "#A9A9A9",
         WhiteBlue: "#D9D9FF",
         BtnClr: "#7B99FF",
+        featureBG: "#F0F8FF",
       },
     },
   },
