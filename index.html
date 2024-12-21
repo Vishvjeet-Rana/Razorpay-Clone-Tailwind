@@ -20,6 +20,7 @@
     <title>Razorpay - Best Online Payment Gateway</title>
 
     <link rel="stylesheet" href="main.css" />
+    <!-- <script src="industry_features.js"></script> -->
   </head>
   <body>
     <!-- navbar starting -->
@@ -536,7 +537,7 @@
             E-Commerce
           </button>
           <button
-            id="ducation"
+            id="education"
             class="text-black text-lg font-mullish font-semibold hover:text-blue-500 active:text-blue-900"
           >
             Education
@@ -566,31 +567,38 @@
           class="w-[95%] rounded-xl h-[80%] bg-white flex justify-around items-center overflow-hidden"
         >
           <!-- feature -->
-          <div class="h-[90%] w-[48%] bg-featureBG shadow-lg rounded-xl p-3">
+          <div
+            id="featurediv"
+            class="h-[90%] w-[48%] bg-featureBG shadow-lg rounded-xl p-3"
+          >
             <h1
               class="font-mullish animate-slide-in-left font-semibold text-black text-4xl mb-4 mt-4"
             >
               Payments ecosystem for
-              <span class="text-green-600">financial services</span>
+              <span class="text-green-600">e-commerce business</span>
             </h1>
             <p
               class="font-mullish animate-slide-in-left font-semibold text-gray-600 text-lg"
             >
-              Streamline collection management, automate recurring payments, and
-              expedite loan disbursement for a comprehensive financial solution.
+              Streamline payment management with a unified dashboard, enabling
+              both online and in-person payment collection while enhancing
+              conversion rates and minimizing fraud.
             </p>
             <button
               class="rounded-xl font-mullish font-semibold p-3 text-center cursor-pointer text-white bg-blue-600 transition-all duration-500 hover:bg-blue-700 hover:text-white group mt-8 text-base animate-slide-in-left"
             >
-              Sign Up Now
+              See Solutions
               <i class="fa-solid fa-arrow-right text-white ml-2"></i>
             </button>
           </div>
 
           <!-- image -->
-          <div class="h-[90%] w-[48%] bg-featureBG shadow-lg rounded-xl">
+          <div
+            id="imagediv"
+            class="h-[90%] w-[48%] bg-featureBG shadow-lg rounded-xl"
+          >
             <img
-              src="images/bfsi.png"
+              src="images/ecommerce.png"
               alt=""
               class="overflow-hidden h-[100%] w-[100%] rounded-xl animate-slide-in-right"
             />
@@ -598,5 +606,7 @@
         </div>
       </div>
     </section>
+
+    <script src="industry_features.js"></script>
   </body>
 </html>
