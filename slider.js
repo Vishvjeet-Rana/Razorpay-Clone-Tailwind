@@ -6,6 +6,7 @@ let currentIndex = 0;
 
 function updateSlider() {
   slider.style.transform = `translateX(-${currentIndex * 33.333}%)`;
+  slider.style.transition = "transform 0.5s ease-in-out";
 }
 
 function slideNext() {

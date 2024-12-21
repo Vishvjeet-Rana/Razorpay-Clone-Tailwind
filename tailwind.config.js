@@ -10,6 +10,7 @@ module.exports = {
         "slide-in-bottom": "slideInBottom 1s ease-out",
         "up-down": "upDown 4s ease-in-out infinite", // Adjust timing to suit your needs
         "down-up": "downUp 4s ease-in-out infinite", // Adjust timing to suit your
+        blink: "blink 0.7s infinite",
       },
       keyframes: {
         slideInLeft: {
@@ -47,6 +48,12 @@ module.exports = {
           "0%": { transform: "translateY(40%)" },
           "50%": { transform: "translateY(-40%)" },
           "100%": { transform: "translateY(80%)" },
+        },
+
+        blink: {
+          "0%": { opacity: "0" },
+          "50%": { opacity: "1" },
+          "100%": { opacity: "0" },
         },
       },
 
