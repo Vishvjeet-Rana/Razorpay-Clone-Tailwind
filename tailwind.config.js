@@ -68,6 +68,7 @@ module.exports = {
         WhiteBlue: "#D9D9FF",
         BtnClr: "#7B99FF",
         featureBG: "#F0F8FF",
+        coffeeBg: "#F4ECE2",
       },
     },
   },
