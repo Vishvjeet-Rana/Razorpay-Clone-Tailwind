@@ -23,6 +23,7 @@ imageDiv.classList.add(
   "rounded-xl"
 );
 
+// Event listener for E-commerce button
 ecomBtn.addEventListener("click", () => {
   featureDiv.innerHTML = "";
   imageDiv.innerHTML = "";
@@ -91,6 +92,7 @@ ecomBtn.addEventListener("click", () => {
 
   imageDiv.appendChild(image);
 });
+
 // Event listener for Education button
 eduBtn.addEventListener("click", () => {
   featureDiv.innerHTML = "";
@@ -102,7 +104,7 @@ eduBtn.addEventListener("click", () => {
   let image = document.createElement("img");
 
   h1.innerHTML =
-    'Enhance your <span class="text-green-600">education platform</span>';
+    'Payments for your <span class="text-green-600">education business.</span>';
   h1.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -114,7 +116,7 @@ eduBtn.addEventListener("click", () => {
   );
 
   para.innerText =
-    "Simplify fee collection and management with our secure and efficient payment solutions, tailored for educational institutions.";
+    "Effortlessly establish and monitor fee payments and vendor payouts for educational institutions, tutorials, or online courses, whether you have a website or not.";
   para.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -172,7 +174,7 @@ bfsiBtn.addEventListener("click", () => {
   let image = document.createElement("img");
 
   h1.innerHTML =
-    'Transform your <span class="text-green-600">BFSI operations</span>';
+    'Payments ecosystem for <span class="text-green-600">financial services</span>';
   h1.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -184,7 +186,7 @@ bfsiBtn.addEventListener("click", () => {
   );
 
   para.innerText =
-    "Optimize financial services with our comprehensive payment solutions, ensuring security and efficiency for banking, financial services, and insurance sectors.";
+    "Streamline collection management, automate recurring payments, and expedite loan disbursement for a comprehensive financial solution.";
   para.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -241,7 +243,8 @@ saasBtn.addEventListener("click", () => {
   let btn = document.createElement("button");
   let image = document.createElement("img");
 
-  h1.innerHTML = 'Boost your <span class="text-green-600">SaaS business</span>';
+  h1.innerHTML =
+    'Global Payment Solutions for <span class="text-green-600">IT & SaaS</span> Providers';
   h1.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -253,7 +256,7 @@ saasBtn.addEventListener("click", () => {
   );
 
   para.innerText =
-    "Leverage our payment solutions to manage subscriptions, automate billing, and enhance customer experience for your SaaS products.";
+    "Seamlessly accept payments in over 100 currencies, facilitate customizable subscription payments, and efficiently execute vendor payouts.";
   para.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -311,7 +314,7 @@ freelanceBtn.addEventListener("click", () => {
   let image = document.createElement("img");
 
   h1.innerHTML =
-    'Empower your <span class="text-green-600">freelance career</span>';
+    'The personalized payment solution for <span class="text-green-600">freelancers</span>';
   h1.classList.add(
     "font-mullish",
     "animate-slide-in-left",
@@ -323,7 +326,7 @@ freelanceBtn.addEventListener("click", () => {
   );
 
   para.innerText =
-    "Manage your payments effortlessly with our solutions, designed to help freelancers handle invoicing, payments, and financial tracking.";
+    "Easily accept payments, even without a website and without any coding expertise, while also enabling the creation of your personalized, branded online store.";
   para.classList.add(
     "font-mullish",
     "animate-slide-in-left",
